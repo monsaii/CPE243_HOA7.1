@@ -1,18 +1,23 @@
 ---
-
 - hosts: all
   become: true
   tasks:
+    - name: Collecting log files
+      find:
+        paths: /var/log/
+        patterns: '*.log'
+      register: log_files
 
-  - name: Collecting log files
-    find:
-      paths: /var/log/
-      patterns: '*.log'
-    register: log_files
+    - name: Copy logs from control node to manage node
+      fetch:
+        src: "{{ item.path }}"
+        dest: /home/sai/CPE243_HOA7.1/LOGS/
+        flat: yes
+      with_items: "{{ log_files.files }}"
 
-  - name: Copy logs from control node to manage node
-    fetch:
-      src: "{{ item.path }}"
-      dest: /tmp/logs/
-      flat: yes
-    with_items: "{{ log_files.files }}"
+    - name: Copy contents of /tmp/logs to /path/to/CPE243_HOA7.1/LOGS/
+      synchronize:
+        src: /tmp/logs/
+        dest: /home/sai/CPE243_HOA7.1/LOGS/
+      become: false
+      ignore_errors: yes

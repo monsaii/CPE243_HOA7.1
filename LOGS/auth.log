@@ -1,0 +1,762 @@
+Oct 14 16:57:21 server1 systemd-logind[703]: New seat seat0.
+Oct 14 16:57:21 server1 systemd-logind[703]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct 14 16:57:21 server1 systemd-logind[703]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Oct 14 16:57:21 server1 systemd-logind[703]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Oct 14 16:57:25 server1 sshd[812]: Server listening on 0.0.0.0 port 22.
+Oct 14 16:57:25 server1 sshd[812]: Server listening on :: port 22.
+Oct 14 16:57:29 server1 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=128) by (uid=0)
+Oct 14 16:57:29 server1 systemd-logind[703]: New session c1 of user gdm.
+Oct 14 16:57:30 server1 systemd: pam_unix(systemd-user:session): session opened for user gdm(uid=128) by (uid=0)
+Oct 14 16:56:47 server1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.43 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Oct 14 16:56:59 server1 dbus-daemon[689]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 14 17:06:48 server1 sshd[1439]: Accepted publickey for sai from 192.168.56.101 port 46860 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 17:06:48 server1 sshd[1439]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:06:48 server1 systemd-logind[703]: New session 2 of user sai.
+Oct 14 17:06:48 server1 systemd: pam_unix(systemd-user:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:06:50 server1 sudo:      sai : TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wxeprtqqsxttsapfsskthorwtkouamqu ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697274410.1759317-6953-207716666050062/AnsiballZ_setup.py
+Oct 14 17:06:50 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:06:53 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:06:53 server1 sudo:      sai : TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-saiylfmpzunfpvbxebfkiqdvojwksfai ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697274413.630169-6968-131886590203033/AnsiballZ_find.py
+Oct 14 17:06:53 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:06:53 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:07:01 server1 sshd[1776]: Accepted password for sai from 192.168.56.101 port 44900 ssh2
+Oct 14 17:07:01 server1 sshd[1776]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:07:01 server1 systemd-logind[703]: New session 4 of user sai.
+Oct 14 17:07:01 server1 sudo: pam_unix(sudo:auth): conversation failed
+Oct 14 17:07:01 server1 sudo: pam_unix(sudo:auth): auth could not identify password for [sai]
+Oct 14 17:07:01 server1 sshd[1816]: Received disconnect from 192.168.56.101 port 44900:11: disconnected by user
+Oct 14 17:07:01 server1 sshd[1816]: Disconnected from user sai 192.168.56.101 port 44900
+Oct 14 17:07:01 server1 sshd[1776]: pam_unix(sshd:session): session closed for user sai
+Oct 14 17:07:01 server1 systemd-logind[703]: Session 4 logged out. Waiting for processes to exit.
+Oct 14 17:07:01 server1 systemd-logind[703]: Removed session 4.
+Oct 14 17:07:14 server1 dbus-daemon[689]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 14 17:07:50 server1 sshd[1818]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=sai
+Oct 14 17:07:52 server1 sshd[1818]: Failed password for sai from 192.168.56.101 port 43940 ssh2
+Oct 14 17:07:52 server1 sshd[1818]: Failed password for sai from 192.168.56.101 port 43940 ssh2
+Oct 14 17:07:53 server1 sshd[1818]: Connection closed by authenticating user sai 192.168.56.101 port 43940 [preauth]
+Oct 14 17:07:54 server1 sshd[1594]: Received disconnect from 192.168.56.101 port 46860:11: disconnected by user
+Oct 14 17:07:54 server1 sshd[1594]: Disconnected from user sai 192.168.56.101 port 46860
+Oct 14 17:07:54 server1 sshd[1439]: pam_unix(sshd:session): session closed for user sai
+Oct 14 17:07:54 server1 systemd-logind[703]: Session 2 logged out. Waiting for processes to exit.
+Oct 14 17:07:54 server1 systemd-logind[703]: Removed session 2.
+Oct 14 17:07:54 server1 sshd[1827]: Connection closed by authenticating user sai 192.168.56.101 port 53268 [preauth]
+Oct 14 17:08:27 server1 sshd[1836]: Accepted publickey for sai from 192.168.56.101 port 41114 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 17:08:27 server1 sshd[1836]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:08:27 server1 systemd-logind[703]: New session 5 of user sai.
+Oct 14 17:08:27 server1 systemd: pam_unix(systemd-user:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:08:28 server1 sudo:      sai : TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xbkiyenbkkvvjyvlzhjwceqriguvaofh ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697274507.8359134-7124-78561164947921/AnsiballZ_setup.py
+Oct 14 17:08:28 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:08:28 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:08:29 server1 sudo:      sai : TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qovsenirgnzeldeyygwiwmwbxyolpnyd ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697274508.9597733-7139-126458124639930/AnsiballZ_find.py
+Oct 14 17:08:29 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:08:29 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:08:33 server1 sshd[2127]: Accepted password for sai from 192.168.56.101 port 41118 ssh2
+Oct 14 17:08:33 server1 sshd[2127]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:08:33 server1 systemd-logind[703]: New session 7 of user sai.
+Oct 14 17:08:33 server1 sudo: pam_unix(sudo:auth): conversation failed
+Oct 14 17:08:33 server1 sudo: pam_unix(sudo:auth): auth could not identify password for [sai]
+Oct 14 17:08:33 server1 sshd[2167]: Received disconnect from 192.168.56.101 port 41118:11: disconnected by user
+Oct 14 17:08:33 server1 sshd[2167]: Disconnected from user sai 192.168.56.101 port 41118
+Oct 14 17:08:33 server1 sshd[2127]: pam_unix(sshd:session): session closed for user sai
+Oct 14 17:08:33 server1 systemd-logind[703]: Session 7 logged out. Waiting for processes to exit.
+Oct 14 17:08:33 server1 systemd-logind[703]: Removed session 7.
+Oct 14 17:08:35 server1 sshd[2169]: Accepted password for sai from 192.168.56.101 port 41582 ssh2
+Oct 14 17:08:35 server1 sshd[2169]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:08:35 server1 systemd-logind[703]: New session 8 of user sai.
+Oct 14 17:08:35 server1 sudo: pam_unix(sudo:auth): conversation failed
+Oct 14 17:08:35 server1 sudo: pam_unix(sudo:auth): auth could not identify password for [sai]
+Oct 14 17:08:35 server1 sshd[2209]: Received disconnect from 192.168.56.101 port 41582:11: disconnected by user
+Oct 14 17:08:35 server1 sshd[2209]: Disconnected from user sai 192.168.56.101 port 41582
+Oct 14 17:08:35 server1 sshd[2169]: pam_unix(sshd:session): session closed for user sai
+Oct 14 17:08:35 server1 systemd-logind[703]: Session 8 logged out. Waiting for processes to exit.
+Oct 14 17:08:35 server1 systemd-logind[703]: Removed session 8.
+Oct 14 17:08:38 server1 sshd[2211]: Accepted password for sai from 192.168.56.101 port 41584 ssh2
+Oct 14 17:08:38 server1 sshd[2211]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:08:38 server1 systemd-logind[703]: New session 9 of user sai.
+Oct 14 17:08:38 server1 sudo: pam_unix(sudo:auth): conversation failed
+Oct 14 17:08:38 server1 sudo: pam_unix(sudo:auth): auth could not identify password for [sai]
+Oct 14 17:08:38 server1 sshd[2251]: Received disconnect from 192.168.56.101 port 41584:11: disconnected by user
+Oct 14 17:08:38 server1 sshd[2251]: Disconnected from user sai 192.168.56.101 port 41584
+Oct 14 17:08:38 server1 sshd[2211]: pam_unix(sshd:session): session closed for user sai
+Oct 14 17:08:38 server1 systemd-logind[703]: Session 9 logged out. Waiting for processes to exit.
+Oct 14 17:08:38 server1 systemd-logind[703]: Removed session 9.
+Oct 14 17:08:40 server1 sshd[2253]: Accepted password for sai from 192.168.56.101 port 41594 ssh2
+Oct 14 17:08:40 server1 sshd[2253]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:08:40 server1 systemd-logind[703]: New session 10 of user sai.
+Oct 14 17:08:40 server1 sudo: pam_unix(sudo:auth): conversation failed
+Oct 14 17:08:40 server1 sudo: pam_unix(sudo:auth): auth could not identify password for [sai]
+Oct 14 17:08:40 server1 sshd[2253]: pam_unix(sshd:session): session closed for user sai
+Oct 14 17:08:40 server1 systemd-logind[703]: Session 10 logged out. Waiting for processes to exit.
+Oct 14 17:08:40 server1 systemd-logind[703]: Removed session 10.
+Oct 14 17:08:53 server1 dbus-daemon[689]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 14 17:09:01 server1 CRON[2295]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 17:09:01 server1 CRON[2295]: pam_unix(cron:session): session closed for user root
+Oct 14 17:09:29 server1 sshd[1931]: Received disconnect from 192.168.56.101 port 41114:11: disconnected by user
+Oct 14 17:09:29 server1 sshd[1931]: Disconnected from user sai 192.168.56.101 port 41114
+Oct 14 17:09:29 server1 sshd[1836]: pam_unix(sshd:session): session closed for user sai
+Oct 14 17:09:29 server1 systemd-logind[703]: Session 5 logged out. Waiting for processes to exit.
+Oct 14 17:09:29 server1 systemd-logind[703]: Removed session 5.
+Oct 14 17:15:02 server1 sshd[2357]: Accepted publickey for sai from 192.168.56.101 port 34364 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 17:15:02 server1 sshd[2357]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:15:02 server1 systemd-logind[703]: New session 12 of user sai.
+Oct 14 17:15:02 server1 systemd: pam_unix(systemd-user:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:15:27 server1 dbus-daemon[689]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 14 17:15:56 server1 sudo:      sai : TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-humqfycltfunteblkvrqbtaaveklfqfh ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697274956.0697896-7397-6771727176045/AnsiballZ_setup.py
+Oct 14 17:15:56 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:15:56 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:15:57 server1 sudo:      sai : TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lotqjrsluqljubncymbpexcervpgusem ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697274957.2110567-7437-230450868265462/AnsiballZ_find.py
+Oct 14 17:15:57 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:15:57 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:15:57 server1 sudo:      sai : TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pqfupziqwczwuciigepowwsdldbxwtqr ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697274957.58972-7446-252848084518747/AnsiballZ_slurp.py
+Oct 14 17:15:57 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:15:57 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:15:57 server1 sudo:      sai : TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gfbwyatgndhovvejgmuxphqzsohttcny ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697274957.893731-7446-20729820528971/AnsiballZ_slurp.py
+Oct 14 17:15:57 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:15:58 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:15:58 server1 sudo:      sai : TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hkvzwhjgciovixezilorzuhgnxmynzgt ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697274958.1122572-7446-177613976001947/AnsiballZ_slurp.py
+Oct 14 17:15:58 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:15:58 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:15:58 server1 sudo:      sai : TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cnmyoyitwahfnpkcmqyqkxypycskjyam ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697274958.3249774-7446-109607660865334/AnsiballZ_slurp.py
+Oct 14 17:15:58 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:15:58 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:16:58 server1 sshd[2439]: Received disconnect from 192.168.56.101 port 34364:11: disconnected by user
+Oct 14 17:16:58 server1 sshd[2439]: Disconnected from user sai 192.168.56.101 port 34364
+Oct 14 17:16:58 server1 sshd[2357]: pam_unix(sshd:session): session closed for user sai
+Oct 14 17:16:58 server1 systemd-logind[703]: Session 12 logged out. Waiting for processes to exit.
+Oct 14 17:16:58 server1 systemd-logind[703]: Removed session 12.
+Oct 14 17:17:01 server1 CRON[2768]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 17:17:01 server1 CRON[2768]: pam_unix(cron:session): session closed for user root
+Oct 14 17:19:21 server1 sshd[2777]: Accepted publickey for sai from 192.168.56.101 port 45580 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 17:19:21 server1 sshd[2777]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:19:21 server1 systemd-logind[703]: New session 15 of user sai.
+Oct 14 17:19:21 server1 systemd: pam_unix(systemd-user:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:19:22 server1 sudo:      sai : TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cqikgwannocdlswlxmlyzfbvgmxgjoki ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275161.9371128-7506-201582682761230/AnsiballZ_setup.py
+Oct 14 17:19:22 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:19:23 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:19:24 server1 sudo:      sai : TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-txlctjauipayehfoindsnyxgfoqokrlt ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275164.290178-7579-188866157749236/AnsiballZ_find.py
+Oct 14 17:19:24 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:19:24 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:19:24 server1 sudo:      sai : TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-azrvriyzsgdzumbfdedqtaqfwerwxwee ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275164.6880753-7594-173298686250818/AnsiballZ_find.py
+Oct 14 17:19:24 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:19:25 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:19:47 server1 dbus-daemon[689]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 14 17:20:06 server1 sudo: pam_unix(sudo:auth): conversation failed
+Oct 14 17:20:06 server1 sudo: pam_unix(sudo:auth): auth could not identify password for [sai]
+Oct 14 17:20:06 server1 sudo:      sai : a password is required ; TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hnowiuapytrifqlunksxcewjkqvecqao ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275206.201663-7616-87370079342435/AnsiballZ_setup.py
+Oct 14 17:21:06 server1 sshd[2872]: Received disconnect from 192.168.56.101 port 45580:11: disconnected by user
+Oct 14 17:21:06 server1 sshd[2872]: Disconnected from user sai 192.168.56.101 port 45580
+Oct 14 17:21:06 server1 sshd[2777]: pam_unix(sshd:session): session closed for user sai
+Oct 14 17:21:06 server1 systemd-logind[703]: Session 15 logged out. Waiting for processes to exit.
+Oct 14 17:21:06 server1 systemd-logind[703]: Removed session 15.
+Oct 14 17:23:33 server1 sshd[3129]: Accepted publickey for sai from 192.168.56.101 port 54304 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 17:23:33 server1 sshd[3129]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:23:33 server1 systemd-logind[703]: New session 17 of user sai.
+Oct 14 17:23:33 server1 systemd: pam_unix(systemd-user:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:23:34 server1 sudo:      sai : TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-knlpcopeoolngkroiibytfknkudinuwp ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275413.614096-7649-58442557639060/AnsiballZ_setup.py
+Oct 14 17:23:34 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:23:34 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:23:35 server1 sudo:      sai : TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qficmbhpcayytpivuxxtlrglcrrelwrq ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275415.0902727-7664-192461288102480/AnsiballZ_find.py
+Oct 14 17:23:35 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:23:35 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:23:35 server1 sudo:      sai : TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rkaafapncqndbihsnugmuuzfiprsyxcz ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275415.448167-7673-72651858287572/AnsiballZ_find.py
+Oct 14 17:23:35 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:23:35 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:23:35 server1 sudo:      sai : TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dxsjcnwvxvfbuexxmzgjynxsjdemyhfx ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275415.7284129-7682-229670889407945/AnsiballZ_stat.py
+Oct 14 17:23:35 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:23:35 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:23:36 server1 sudo:      sai : TTY=pts/0 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fjturjsjrjncihlidhvstvtftibpoydp ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275415.7284129-7682-229670889407945/AnsiballZ_copy.py
+Oct 14 17:23:36 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:23:36 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:23:58 server1 dbus-daemon[689]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct 14 17:24:27 server1 gdm-password]: gkr-pam: unable to locate daemon control file
+Oct 14 17:24:27 server1 gdm-password]: gkr-pam: stashed password to try later in open session
+Oct 14 17:24:27 server1 gdm-password]: pam_unix(gdm-password:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:24:27 server1 systemd-logind[703]: New session 19 of user sai.
+Oct 14 17:24:27 server1 gdm-password]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 14 17:24:28 server1 gnome-keyring-daemon[3508]: The Secret Service was already initialized
+Oct 14 17:24:28 server1 gnome-keyring-daemon[3508]: The SSH agent was already initialized
+Oct 14 17:24:28 server1 gnome-keyring-daemon[3508]: The PKCS#11 component was already initialized
+Oct 14 17:24:29 server1 polkitd(authority=local): Registered Authentication Agent for unix-session:19 (system bus name :1.221 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Oct 14 17:24:34 server1 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Oct 14 17:24:34 server1 polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.43, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8) (disconnected from bus)
+Oct 14 17:24:35 server1 systemd-logind[703]: Session c1 logged out. Waiting for processes to exit.
+Oct 14 17:24:35 server1 systemd-logind[703]: Removed session c1.
+Oct 14 17:24:36 server1 sshd[3223]: Received disconnect from 192.168.56.101 port 54304:11: disconnected by user
+Oct 14 17:24:36 server1 sshd[3223]: Disconnected from user sai 192.168.56.101 port 54304
+Oct 14 17:24:36 server1 sshd[3129]: pam_unix(sshd:session): session closed for user sai
+Oct 14 17:24:36 server1 systemd-logind[703]: Session 17 logged out. Waiting for processes to exit.
+Oct 14 17:24:36 server1 systemd-logind[703]: Removed session 17.
+Oct 14 17:26:48 server1 sshd[4120]: Accepted publickey for sai from 192.168.56.101 port 35606 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 17:26:48 server1 sshd[4120]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:26:48 server1 systemd-logind[703]: New session 20 of user sai.
+Oct 14 17:26:49 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nzspheigsqvnhuapallicvktdpwoptqa ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275609.3305705-7719-233676223906947/AnsiballZ_setup.py
+Oct 14 17:26:49 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:26:50 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:26:51 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vkmvxoadhyzxxilnfgkmaklrhwlamzjq ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275610.9392338-7734-167122054946526/AnsiballZ_find.py
+Oct 14 17:26:51 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:26:51 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:26:51 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-thzsehohanudjonbilqpmeaxwbcaqids ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275611.2403066-7743-130785172644518/AnsiballZ_find.py
+Oct 14 17:26:51 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:26:51 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:26:51 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ykhkcmmlamsmzupqrxdzicnwedbkdhjf ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275611.520308-7752-186059626910312/AnsiballZ_stat.py
+Oct 14 17:26:51 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:26:51 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:26:51 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hnjbfwdzpkferrnopetisnrdudmcyuxq ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275611.520308-7752-186059626910312/AnsiballZ_file.py
+Oct 14 17:26:51 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:26:52 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:27:52 server1 sshd[4160]: Received disconnect from 192.168.56.101 port 35606:11: disconnected by user
+Oct 14 17:27:52 server1 sshd[4160]: Disconnected from user sai 192.168.56.101 port 35606
+Oct 14 17:27:52 server1 sshd[4120]: pam_unix(sshd:session): session closed for user sai
+Oct 14 17:27:52 server1 systemd-logind[703]: Session 20 logged out. Waiting for processes to exit.
+Oct 14 17:27:52 server1 systemd-logind[703]: Removed session 20.
+Oct 14 17:29:41 server1 sshd[4335]: Accepted publickey for sai from 192.168.56.101 port 54000 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 17:29:41 server1 sshd[4335]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:29:41 server1 systemd-logind[703]: New session 21 of user sai.
+Oct 14 17:29:41 server1 sudo: pam_unix(sudo:auth): authentication failure; logname=sai uid=1000 euid=0 tty=/dev/pts/1 ruser=sai rhost=  user=sai
+Oct 14 17:29:43 server1 sudo: pam_unix(sudo:auth): conversation failed
+Oct 14 17:29:43 server1 sudo: pam_unix(sudo:auth): auth could not identify password for [sai]
+Oct 14 17:29:43 server1 sudo:      sai : 1 incorrect password attempt ; TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cpfjhtuysezkhmlaipmmonrpgglfchsj ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275781.448739-7788-227689055244852/AnsiballZ_setup.py
+Oct 14 17:29:54 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rxgkecrogsdapqmjdylazbckoyweerto ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275793.968114-7810-91803815759826/AnsiballZ_setup.py
+Oct 14 17:29:54 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:29:54 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:29:55 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mgnqqmhsjgpnrxcrkwwmvbrxouzgdjgw ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275795.5879536-7850-112398492412640/AnsiballZ_find.py
+Oct 14 17:29:55 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:29:55 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:29:56 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bspngyteyoyghfaqpsgvylcdeylxpsyz ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275795.9704678-7859-49866304794968/AnsiballZ_slurp.py
+Oct 14 17:29:56 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:29:56 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:29:56 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-epwpczfwtmnfhfvdygkvarsmyhbbjxex ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275796.4176621-7859-89006566381095/AnsiballZ_slurp.py
+Oct 14 17:29:56 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:29:56 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:29:56 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-twmtdjifcizqjophzmubhnkettwpwcuo ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275796.678041-7859-200708409778117/AnsiballZ_slurp.py
+Oct 14 17:29:56 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:29:56 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:29:56 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-reqdyziuldlqvcfclqtsyabprdpbhzkb ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697275796.9264474-7859-173110085456860/AnsiballZ_slurp.py
+Oct 14 17:29:56 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:29:57 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:30:01 server1 CRON[4593]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 17:30:01 server1 CRON[4593]: pam_unix(cron:session): session closed for user root
+Oct 14 17:30:57 server1 sshd[4375]: Received disconnect from 192.168.56.101 port 54000:11: disconnected by user
+Oct 14 17:30:57 server1 sshd[4375]: Disconnected from user sai 192.168.56.101 port 54000
+Oct 14 17:30:57 server1 sshd[4335]: pam_unix(sshd:session): session closed for user sai
+Oct 14 17:30:57 server1 systemd-logind[703]: Session 21 logged out. Waiting for processes to exit.
+Oct 14 17:30:57 server1 systemd-logind[703]: Removed session 21.
+Oct 14 17:35:27 server1 sshd[4609]: Accepted publickey for sai from 192.168.56.101 port 46698 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 17:35:27 server1 sshd[4609]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:35:27 server1 systemd-logind[703]: New session 23 of user sai.
+Oct 14 17:35:27 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jfunnrvihufvpgntbqtrztbcqhamrpmb ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697276127.2479877-7916-22121107782284/AnsiballZ_setup.py
+Oct 14 17:35:27 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:35:27 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:35:28 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lfqnaedfmbfbbuznvlbcebvcmvzsniap ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697276128.1150439-7931-150712127090292/AnsiballZ_find.py
+Oct 14 17:35:28 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:35:28 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:35:28 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lxrpogvypqjjogzqxblvoocffjbfxyag ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697276128.4344747-7940-233825623382827/AnsiballZ_find.py
+Oct 14 17:35:28 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:35:28 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:36:19 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-uidjkxpnermxjnxfaeodzmjuynsvggyt ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697276179.6361504-7960-57825796691149/AnsiballZ_setup.py
+Oct 14 17:36:19 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:36:20 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:36:20 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-leawsfuwqkaugpyvqoescsgscqxmrrsf ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697276180.4632976-7971-262627860594602/AnsiballZ_find.py
+Oct 14 17:36:20 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:36:20 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:36:20 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dznbocbnnszpczirpmparmiipbddfgmn ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697276180.7827034-7980-39293306167105/AnsiballZ_find.py
+Oct 14 17:36:20 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:36:20 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:37:20 server1 sshd[4649]: Received disconnect from 192.168.56.101 port 46698:11: disconnected by user
+Oct 14 17:37:20 server1 sshd[4649]: Disconnected from user sai 192.168.56.101 port 46698
+Oct 14 17:37:20 server1 sshd[4609]: pam_unix(sshd:session): session closed for user sai
+Oct 14 17:37:20 server1 systemd-logind[703]: Session 23 logged out. Waiting for processes to exit.
+Oct 14 17:37:20 server1 systemd-logind[703]: Removed session 23.
+Oct 14 17:39:01 server1 CRON[4911]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 17:39:01 server1 CRON[4911]: pam_unix(cron:session): session closed for user root
+Oct 14 17:39:36 server1 sshd[4961]: Accepted publickey for sai from 192.168.56.101 port 52318 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 17:39:36 server1 sshd[4961]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:39:36 server1 systemd-logind[703]: New session 25 of user sai.
+Oct 14 17:39:36 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-odrxwrcpsfnuarlwtdapgxxtocsmklzy ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697276376.4368489-8016-259168876262590/AnsiballZ_setup.py
+Oct 14 17:39:36 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:39:37 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:39:37 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-aiijmpafsoaxavrolrbawduiuakrmrqz ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697276377.2353947-8031-40908851020704/AnsiballZ_find.py
+Oct 14 17:39:37 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:39:37 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:39:37 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kfhsxemcjwutwinzoxxhbbtypxbqmedn ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697276377.5617316-8040-58255171435459/AnsiballZ_find.py
+Oct 14 17:39:37 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:39:37 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:40:37 server1 sshd[5001]: Received disconnect from 192.168.56.101 port 52318:11: disconnected by user
+Oct 14 17:40:37 server1 sshd[5001]: Disconnected from user sai 192.168.56.101 port 52318
+Oct 14 17:40:37 server1 sshd[4961]: pam_unix(sshd:session): session closed for user sai
+Oct 14 17:40:37 server1 systemd-logind[703]: Session 25 logged out. Waiting for processes to exit.
+Oct 14 17:40:37 server1 systemd-logind[703]: Removed session 25.
+Oct 14 17:45:17 server1 sshd[5143]: Accepted publickey for sai from 192.168.56.101 port 59912 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 17:45:17 server1 sshd[5143]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:45:17 server1 systemd-logind[703]: New session 26 of user sai.
+Oct 14 17:45:17 server1 sudo: pam_unix(sudo:auth): authentication failure; logname=sai uid=1000 euid=0 tty=/dev/pts/1 ruser=sai rhost=  user=sai
+Oct 14 17:45:20 server1 sudo: pam_unix(sudo:auth): conversation failed
+Oct 14 17:45:20 server1 sudo: pam_unix(sudo:auth): auth could not identify password for [sai]
+Oct 14 17:45:20 server1 sudo:      sai : 1 incorrect password attempt ; TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jlqytjdnsdnuxosmyzwskzhrwlpmqfdn ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697276717.606297-8084-275732189035258/AnsiballZ_setup.py
+Oct 14 17:45:25 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-effrozkebrdxaspvmhwccpevkgawemnv ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697276725.2249415-8103-82432782015696/AnsiballZ_setup.py
+Oct 14 17:45:25 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:45:25 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:45:26 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fvxbzglqeykvvryzdzlusrxmgmlzeiks ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697276726.0313706-8114-165026424251061/AnsiballZ_find.py
+Oct 14 17:45:26 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:45:26 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:45:26 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-whrmptdjyqlvtzpdzpnzznzmocifixfj ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697276726.35794-8123-33753807627256/AnsiballZ_find.py
+Oct 14 17:45:26 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:45:26 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:45:26 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mztefybqsuqizloetgfgeawpjplvnqjy ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697276726.6327186-8132-102348771508515/AnsiballZ_command.py
+Oct 14 17:45:26 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:45:26 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:45:26 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hhggtampyntjqvurhombjqqkixtaeral ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697276726.9725966-8132-123991281673739/AnsiballZ_command.py
+Oct 14 17:45:26 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:45:27 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:45:27 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tabqilgrmvldpmhslchrjdeejdamsdmv ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697276727.2003121-8132-228259180503281/AnsiballZ_command.py
+Oct 14 17:45:27 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:45:27 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:45:27 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eflpjclaulvbjwuxodppbgpnvditllvw ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697276727.4238768-8132-152080334083376/AnsiballZ_command.py
+Oct 14 17:45:27 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:45:27 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:45:27 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dkfkvtbpawnfhgnossvtqmofxrxcafvl ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697276727.6533582-8132-81657781343935/AnsiballZ_command.py
+Oct 14 17:45:27 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:45:27 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:46:27 server1 sshd[5183]: Received disconnect from 192.168.56.101 port 59912:11: disconnected by user
+Oct 14 17:46:27 server1 sshd[5183]: Disconnected from user sai 192.168.56.101 port 59912
+Oct 14 17:46:27 server1 systemd-logind[703]: Session 26 logged out. Waiting for processes to exit.
+Oct 14 17:46:27 server1 sshd[5143]: pam_unix(sshd:session): session closed for user sai
+Oct 14 17:46:27 server1 systemd-logind[703]: Removed session 26.
+Oct 14 17:54:48 server1 sshd[5502]: Accepted publickey for sai from 192.168.56.101 port 38824 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 17:54:48 server1 sshd[5502]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:54:48 server1 systemd-logind[703]: New session 27 of user sai.
+Oct 14 17:54:48 server1 sudo: pam_unix(sudo:auth): authentication failure; logname=sai uid=1000 euid=0 tty=/dev/pts/1 ruser=sai rhost=  user=sai
+Oct 14 17:54:51 server1 sudo: pam_unix(sudo:auth): conversation failed
+Oct 14 17:54:51 server1 sudo: pam_unix(sudo:auth): auth could not identify password for [sai]
+Oct 14 17:54:51 server1 sudo:      sai : 1 incorrect password attempt ; TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rljqjcgwsmccvgxwozawwckdquefejxk ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697277288.548713-8250-166150680924204/AnsiballZ_setup.py
+Oct 14 17:54:57 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qlwgswgvmjsknschfbzcfrjvhjtjrwmu ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697277296.900293-8269-124332838099809/AnsiballZ_setup.py
+Oct 14 17:54:57 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:54:57 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:54:58 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rbpxovjgjqjwaksdqvqhiqhaddvxhdzy ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697277297.9465826-8280-11685065136670/AnsiballZ_find.py
+Oct 14 17:54:58 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:54:58 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:54:58 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hxvqjjcwbfpzaljicrphmjtrbejgdlpe ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697277298.447556-8289-14610051828796/AnsiballZ_slurp.py
+Oct 14 17:54:58 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:54:58 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:54:58 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nrlyjblteioavtsejgpelicajuyygegg ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697277298.7596762-8289-120160952854536/AnsiballZ_slurp.py
+Oct 14 17:54:58 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:54:58 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:54:59 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qbsipzdmxnbjtstlpcbowybhkdlqqmbx ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697277299.031109-8289-157271526084447/AnsiballZ_slurp.py
+Oct 14 17:54:59 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:54:59 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:54:59 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gatvgofdxyhfehcnlxvzhjymirskofeu ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697277299.278712-8289-32384749520076/AnsiballZ_slurp.py
+Oct 14 17:54:59 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:54:59 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:54:59 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eneyfmstiqrhdibciuyhzmafnnviospa ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697277299.5270374-8289-169280598667363/AnsiballZ_slurp.py
+Oct 14 17:54:59 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:54:59 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:55:59 server1 sshd[5542]: Received disconnect from 192.168.56.101 port 38824:11: disconnected by user
+Oct 14 17:55:59 server1 sshd[5542]: Disconnected from user sai 192.168.56.101 port 38824
+Oct 14 17:55:59 server1 sshd[5502]: pam_unix(sshd:session): session closed for user sai
+Oct 14 17:55:59 server1 systemd-logind[703]: Session 27 logged out. Waiting for processes to exit.
+Oct 14 17:55:59 server1 systemd-logind[703]: Removed session 27.
+Oct 14 17:56:54 server1 sshd[5841]: Accepted publickey for sai from 192.168.56.101 port 48362 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 17:56:54 server1 sshd[5841]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 17:56:54 server1 systemd-logind[703]: New session 28 of user sai.
+Oct 14 17:56:55 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-svkhtonborbsvxurnkpawshxxsfpmdwx ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697277415.0488317-8348-277670586701310/AnsiballZ_setup.py
+Oct 14 17:56:55 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:56:55 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:56:56 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rtwsfpsvcfmuhpruffbugzcoxmqpdsag ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697277415.8513494-8363-35516612017425/AnsiballZ_find.py
+Oct 14 17:56:56 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:56:56 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:56:56 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jvyyswsdsmkifjsnvcewvktelwcstpse ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697277416.2037296-8372-31548795864156/AnsiballZ_slurp.py
+Oct 14 17:56:56 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:56:56 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:56:56 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jvasypnywmqeywuqbbwiucghmqclmmpy ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697277416.5013254-8372-218374390573353/AnsiballZ_slurp.py
+Oct 14 17:56:56 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:56:56 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:56:56 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ppqiwmmysjdbwhyztifzlqbhfvtbyeoh ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697277416.741605-8372-230000351964824/AnsiballZ_slurp.py
+Oct 14 17:56:56 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:56:56 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:56:57 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oatxbpxpppzmkywxyqopjkhwyfxymjcb ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697277416.9571552-8372-147428163882326/AnsiballZ_slurp.py
+Oct 14 17:56:57 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:56:57 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:56:57 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vebgdxzkarqqohhejtdsyshcxhhrlicw ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697277417.2044613-8372-6640189306993/AnsiballZ_slurp.py
+Oct 14 17:56:57 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 17:56:57 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 17:57:57 server1 sshd[5881]: Received disconnect from 192.168.56.101 port 48362:11: disconnected by user
+Oct 14 17:57:57 server1 sshd[5881]: Disconnected from user sai 192.168.56.101 port 48362
+Oct 14 17:57:57 server1 sshd[5841]: pam_unix(sshd:session): session closed for user sai
+Oct 14 17:57:57 server1 systemd-logind[703]: Session 28 logged out. Waiting for processes to exit.
+Oct 14 17:57:57 server1 systemd-logind[703]: Removed session 28.
+Oct 14 18:09:01 server1 CRON[6161]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 18:09:01 server1 CRON[6161]: pam_unix(cron:session): session closed for user root
+Oct 14 18:12:24 server1 sshd[6219]: Accepted publickey for sai from 192.168.56.101 port 32952 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 18:12:24 server1 sshd[6219]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 18:12:24 server1 systemd-logind[703]: New session 30 of user sai.
+Oct 14 18:12:25 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nluojzvwijahgnqsrwgfxsnmjkmlfyio ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278344.3923216-9400-135128648154723/AnsiballZ_setup.py
+Oct 14 18:12:25 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:12:25 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:12:25 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-llahmqclxryvwjdvjfuirnlrgdwlkawy ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278345.54571-9415-65865918995878/AnsiballZ_find.py
+Oct 14 18:12:25 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:12:25 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:12:25 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mkxxhqhvykzxeuiyidmrybmxmnurecbj ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278345.9053388-9424-281404723126771/AnsiballZ_find.py
+Oct 14 18:12:25 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:12:26 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:13:39 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tjruknrfehipyzfjrbxrqvawpeyfsuzm ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278418.7385817-9451-73771880629971/AnsiballZ_setup.py
+Oct 14 18:13:39 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:13:39 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:13:39 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-skcekmybmljsibymjyhtbgzsjfxvnwzi ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278419.559426-9462-118086437016547/AnsiballZ_find.py
+Oct 14 18:13:39 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:13:39 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:13:40 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bcsjaykfjakhudebndvpafdlgaenmssl ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278419.9161522-9471-243203277118031/AnsiballZ_find.py
+Oct 14 18:13:40 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:13:40 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:13:40 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vmfuujcfqqmknfdyrlrlcamfqvaekire ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278420.177299-9480-69733657979346/AnsiballZ_slurp.py
+Oct 14 18:13:40 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:13:40 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:13:40 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sphirtujlvmddaeshhvtmzfzmkjqkkoe ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278420.4875898-9480-35136951775481/AnsiballZ_slurp.py
+Oct 14 18:13:40 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:13:40 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:13:40 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kmvvbuftagdkxwbosydbjlsxybmtwgzg ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278420.7194216-9480-11739645127243/AnsiballZ_slurp.py
+Oct 14 18:13:40 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:13:40 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:13:41 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nqbxhsvttdypzlnlcubjtrsijmkpbqtc ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278420.938387-9480-203066034072110/AnsiballZ_slurp.py
+Oct 14 18:13:41 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:13:41 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:13:41 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-efwchiolxovaabfizqnzikmckhjnsaaz ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278421.1679466-9480-26235614423351/AnsiballZ_slurp.py
+Oct 14 18:13:41 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:13:41 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:14:26 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dydjbinyviguxumjmktpobxmgcaofuer ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278465.9432144-9522-125956265448286/AnsiballZ_setup.py
+Oct 14 18:14:26 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:14:26 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:14:26 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hcyzxjmovorungliahakwcvmpdhtadfl ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278466.7643554-9533-197382861307647/AnsiballZ_find.py
+Oct 14 18:14:26 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:14:27 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:14:27 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jphduwbcqtgxgakvpxshgqunuwulzaxz ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278467.093131-9542-15583109224876/AnsiballZ_find.py
+Oct 14 18:14:27 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:14:27 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:14:27 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vddwflvovjmqqcdomtuynhvqdhamkrmf ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278467.3537598-9551-178816391545076/AnsiballZ_slurp.py
+Oct 14 18:14:27 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:14:27 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:14:27 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vutrueryexwabprnwxzjcsbmmfqwvfbr ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278467.7280161-9551-114742246217749/AnsiballZ_slurp.py
+Oct 14 18:14:27 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:14:27 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:14:28 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ohwfrvxzijrfpumgvmzeiuztkyocefti ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278467.95881-9551-199756026611438/AnsiballZ_slurp.py
+Oct 14 18:14:28 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:14:28 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:14:28 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hwzkxcchbynmmdnzvktmkvqridyhdlin ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278468.164836-9551-280521700487108/AnsiballZ_slurp.py
+Oct 14 18:14:28 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:14:28 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:14:28 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vamgyczsjvdusyquzjkhnakijoemajym ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278468.3930516-9551-133059139243577/AnsiballZ_slurp.py
+Oct 14 18:14:28 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:14:28 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:14:59 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qehwhovrtulxymaotboetuiksplldioh ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278499.0679908-9595-178128334355954/AnsiballZ_setup.py
+Oct 14 18:14:59 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:14:59 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:00 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nlrxpjzyiyrgijppcygbpchilmmpmtvg ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278499.9250731-9606-66786582269429/AnsiballZ_find.py
+Oct 14 18:15:00 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:00 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:00 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-okvpudbtmlmvpjxnebystothtmyhenml ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278500.2886505-9615-273137712753171/AnsiballZ_find.py
+Oct 14 18:15:00 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:00 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:00 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zcvqcedrrydtjhilpiksukrauzrvdauw ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278500.5781648-9624-11482047171412/AnsiballZ_slurp.py
+Oct 14 18:15:00 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:00 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:00 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-puxajmtjkvkaxsnplfbvotufafzpnien ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278500.8821886-9624-45626733108907/AnsiballZ_slurp.py
+Oct 14 18:15:00 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:01 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:01 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-frilzldelkobtrydbbjunwgoeadmofpl ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278501.100994-9624-59856301414300/AnsiballZ_slurp.py
+Oct 14 18:15:01 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:01 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:01 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-traokvdyyrolixtjlhimaqafzzvxmtrv ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278501.3216639-9624-280793050512037/AnsiballZ_slurp.py
+Oct 14 18:15:01 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:01 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:01 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-idzzhikjrkbgvhzihdofbtjnowdglfoq ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278501.5446367-9624-255067115092999/AnsiballZ_slurp.py
+Oct 14 18:15:01 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:01 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:20 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hnxemipdualwktavfuhvuvqsojrnrmud ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278520.1807227-9666-32098083737611/AnsiballZ_setup.py
+Oct 14 18:15:20 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:20 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:21 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oftcuzulekjjuradqtsrwkvplzpxflxu ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278521.027864-9677-98322762237048/AnsiballZ_find.py
+Oct 14 18:15:21 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:21 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:21 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eedtlewqlhiobancjhecinwmunffwgxh ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278521.3467152-9686-64598653075950/AnsiballZ_find.py
+Oct 14 18:15:21 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:21 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:21 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rfegnwzvxwesonuxdxhyqajvwqooilma ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278521.6006463-9695-40880509277838/AnsiballZ_slurp.py
+Oct 14 18:15:21 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:21 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:21 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pbboaunetnugiepjdrdjsihmuuhtjanu ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278521.896281-9695-221076943887091/AnsiballZ_slurp.py
+Oct 14 18:15:21 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:22 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:22 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-quizdbwioojfqfdeujzrqjypqcshkrxi ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278522.110387-9695-275949536811052/AnsiballZ_slurp.py
+Oct 14 18:15:22 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:22 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:22 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ofeirsrayfernujivechcidxjxcjdgro ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278522.3237529-9695-194015928597121/AnsiballZ_slurp.py
+Oct 14 18:15:22 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:22 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:22 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wksklzuuqxndgqywtgnvrberivumapdq ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278522.5510423-9695-34439716498912/AnsiballZ_slurp.py
+Oct 14 18:15:22 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:22 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:42 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xjqdudswprujyseksfnifrzupihsmzcy ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278542.5187404-9738-220303646933615/AnsiballZ_setup.py
+Oct 14 18:15:42 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:43 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:43 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-arsqebkwvyttiukvgahlrlrokthwtyue ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278543.3852665-9749-132642798643893/AnsiballZ_find.py
+Oct 14 18:15:43 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:43 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:43 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-okataiajzogcyzwyubpkpaipgbgotwmx ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278543.7062185-9758-208483890581995/AnsiballZ_find.py
+Oct 14 18:15:43 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:43 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:44 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qzpvoowcddnxtkwxbfutydkcoijyfdcw ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278543.9761496-9767-109874607582397/AnsiballZ_slurp.py
+Oct 14 18:15:44 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:44 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:44 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zqpfrxowelcolagsuqglltigoacdehdv ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278544.2796557-9767-163870657670959/AnsiballZ_slurp.py
+Oct 14 18:15:44 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:44 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:44 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wvzqnbeervtjfvfvtqitcrmtfgcajiip ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278544.5032935-9767-268898945226172/AnsiballZ_slurp.py
+Oct 14 18:15:44 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:44 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:44 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zqkbptzqwdvetubzomhozqhllonulbsf ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278544.7126615-9767-170765487188024/AnsiballZ_slurp.py
+Oct 14 18:15:44 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:44 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:15:45 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fbzwobedneqyhommqmjkssdkfkvyphur ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278544.9535792-9767-171499886723764/AnsiballZ_slurp.py
+Oct 14 18:15:45 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:15:45 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:16:04 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fcwftwxjorvtavmlutqfzjtrwbafkamq ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278564.6848683-9809-223611224352088/AnsiballZ_setup.py
+Oct 14 18:16:04 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:16:05 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:16:05 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bjepefocsqwatqvonwbvtyrqwzpgyfrv ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278565.517993-9820-131131816491907/AnsiballZ_find.py
+Oct 14 18:16:05 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:16:05 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:16:06 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ibfpsaonmgwopsjuffuezgvhmmndbfxr ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278565.9411783-9829-263667041097347/AnsiballZ_slurp.py
+Oct 14 18:16:06 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:16:06 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:16:06 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cbgsdkdutmirhavhzhfqlvkvrsiintew ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278566.2428796-9829-204278893222303/AnsiballZ_slurp.py
+Oct 14 18:16:06 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:16:06 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:16:06 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-trzfgoxglnhwxzwxugpkwbhfamtpvefc ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278566.4600582-9829-112788124341920/AnsiballZ_slurp.py
+Oct 14 18:16:06 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:16:06 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:16:06 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-spfzaggloyqgdjsvzugxhucgykwzonrm ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278566.6975582-9829-209162844316032/AnsiballZ_slurp.py
+Oct 14 18:16:06 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:16:06 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:16:07 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-axegczhuhggcrxulribypqgtkpgwosvx ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278566.9221804-9829-26574406019080/AnsiballZ_slurp.py
+Oct 14 18:16:07 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:16:07 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:16:43 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dkrwqvuyvdbcbotlknbskdilqdpdcevw ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278602.6282556-9879-175205590207201/AnsiballZ_setup.py
+Oct 14 18:16:43 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:16:43 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:16:45 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yfwfzmvtbbrotctgxcgxlzrndfhmhoua ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278605.1764746-9919-191628889755278/AnsiballZ_find.py
+Oct 14 18:16:45 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:16:45 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:16:45 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hndxghdjsbnzyztrvkhczpnxpvmkytba ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278605.6109645-9928-613099254020/AnsiballZ_slurp.py
+Oct 14 18:16:45 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:16:45 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:16:45 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nfsmvjtuepmxhkoldilxbjcylldidoog ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278605.8972404-9928-71908984395157/AnsiballZ_slurp.py
+Oct 14 18:16:45 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:16:46 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:16:46 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fxhapaaplrjbtrmgbgfxyjpxtsbofgkc ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278606.1197968-9928-62380009540547/AnsiballZ_slurp.py
+Oct 14 18:16:46 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:16:46 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:16:46 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ghfyyeetkxhukrzdupupzepiqxymxwsg ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278606.336034-9928-29792718601115/AnsiballZ_slurp.py
+Oct 14 18:16:46 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:16:46 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:16:46 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zekrofebjijwkebsotljutbtbxehivfj ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278606.5765944-9928-184121151050297/AnsiballZ_slurp.py
+Oct 14 18:16:46 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:16:46 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:17:01 server1 CRON[8100]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 18:17:01 server1 CRON[8100]: pam_unix(cron:session): session closed for user root
+Oct 14 18:17:46 server1 sshd[6300]: Received disconnect from 192.168.56.101 port 32952:11: disconnected by user
+Oct 14 18:17:46 server1 sshd[6300]: Disconnected from user sai 192.168.56.101 port 32952
+Oct 14 18:17:46 server1 systemd-logind[703]: Session 30 logged out. Waiting for processes to exit.
+Oct 14 18:17:46 server1 sshd[6219]: pam_unix(sshd:session): session closed for user sai
+Oct 14 18:17:46 server1 systemd-logind[703]: Removed session 30.
+Oct 14 18:18:19 server1 sshd[8106]: Accepted publickey for sai from 192.168.56.101 port 37268 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 18:18:19 server1 sshd[8106]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 18:18:19 server1 systemd-logind[703]: New session 32 of user sai.
+Oct 14 18:18:19 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hgsrzikaecubksvaeagdabdieetuuxtb ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278699.6081614-9981-142407570685497/AnsiballZ_setup.py
+Oct 14 18:18:19 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:18:20 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:18:20 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-muuwcxeujdhqcqkyljnlonitkmxcmcbw ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278700.4176464-9996-208952161690026/AnsiballZ_find.py
+Oct 14 18:18:20 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:18:20 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:18:20 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ijxynzqozuzuutmhbhawjsgyyukibejv ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278700.7728913-10005-31315811613108/AnsiballZ_slurp.py
+Oct 14 18:18:20 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:18:21 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:18:21 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mifqfzglekuccigxsuthxaxjdadnyomy ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278701.087625-10005-252911906281389/AnsiballZ_slurp.py
+Oct 14 18:18:21 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:18:21 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:18:21 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sjfvfgispsmtujkyvriivogzzfuqfpfk ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278701.311153-10005-277463627272651/AnsiballZ_slurp.py
+Oct 14 18:18:21 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:18:21 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:18:21 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zvjxlxbmssbuqtwudxdypjdvhnfunail ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278701.525127-10005-136799868515548/AnsiballZ_slurp.py
+Oct 14 18:18:21 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:18:21 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:18:21 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oppsozfqvrjdxzihmzugbzexejqflsuz ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278701.776498-10005-202153799909071/AnsiballZ_slurp.py
+Oct 14 18:18:21 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:18:21 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:19:22 server1 sshd[8146]: Received disconnect from 192.168.56.101 port 37268:11: disconnected by user
+Oct 14 18:19:22 server1 sshd[8146]: Disconnected from user sai 192.168.56.101 port 37268
+Oct 14 18:19:22 server1 sshd[8106]: pam_unix(sshd:session): session closed for user sai
+Oct 14 18:19:22 server1 systemd-logind[703]: Session 32 logged out. Waiting for processes to exit.
+Oct 14 18:19:22 server1 systemd-logind[703]: Removed session 32.
+Oct 14 18:19:28 server1 sshd[8362]: Accepted publickey for sai from 192.168.56.101 port 45066 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 18:19:28 server1 sshd[8362]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 18:19:28 server1 systemd-logind[703]: New session 33 of user sai.
+Oct 14 18:19:29 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xkphazqppcjdqfcfhyddczohqxdtkdaz ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278768.7090821-10048-219199958532767/AnsiballZ_setup.py
+Oct 14 18:19:29 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:19:29 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:19:29 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vnbjjbrvfkkjlxuspfvaiyetepoedueo ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278769.5224118-10063-242632776280740/AnsiballZ_find.py
+Oct 14 18:19:29 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:19:29 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:19:50 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tfgydflmbgefznyndkrudnhrmuwvfmti ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278790.2968838-10079-139686208327264/AnsiballZ_setup.py
+Oct 14 18:19:50 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:19:51 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:19:51 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gqbjtqbghgiunifakhjrxxhrkxkjhnos ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278791.1265807-10090-279291165417594/AnsiballZ_find.py
+Oct 14 18:19:51 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:19:51 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:19:59 server1 sudo: pam_unix(sudo:auth): conversation failed
+Oct 14 18:19:59 server1 sudo: pam_unix(sudo:auth): auth could not identify password for [sai]
+Oct 14 18:19:59 server1 sudo:      sai : a password is required ; TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dqfrqhrcjsfmzmpodziyuxfvltgufogp ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278799.4649088-10104-151924082133710/AnsiballZ_setup.py
+Oct 14 18:20:27 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qlvbdunpucbmrshfaoplekpqwxouoctl ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278827.5050864-10120-74060336346888/AnsiballZ_setup.py
+Oct 14 18:20:27 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:20:28 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:20:28 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zevjlugbgdomvklgkjfkqinryqmjqfir ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278828.3163157-10131-262884019236456/AnsiballZ_find.py
+Oct 14 18:20:28 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:20:28 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:20:47 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eevakmqrbapjhyglmbvtlkivtrwzzcrn ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278847.4380858-10146-251593781695926/AnsiballZ_setup.py
+Oct 14 18:20:47 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:20:48 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:20:48 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qwviczvnqafduzshxxflpeuqlbjbefvz ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278848.2687252-10157-163020721036792/AnsiballZ_find.py
+Oct 14 18:20:48 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:20:48 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:21:37 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wmhcljhiefjlyapjimpakdmkyjiybmcw ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278897.3683662-10176-151595651908304/AnsiballZ_setup.py
+Oct 14 18:21:37 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:21:38 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:21:38 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vrefwivateuvhhwpigomtftrcghvisfm ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278898.2249415-10187-56213709052434/AnsiballZ_find.py
+Oct 14 18:21:38 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:21:38 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:21:38 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-reojwzvmsbfdepgmlbubqgkjpmwlrpjk ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278898.587026-10196-146919540983665/AnsiballZ_slurp.py
+Oct 14 18:21:38 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:21:38 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:21:38 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-aoevvwualhlrfrcymkkahfqtwpknisss ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278898.8902085-10196-133159601341496/AnsiballZ_slurp.py
+Oct 14 18:21:38 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:21:39 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:21:39 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kjagdhtyjfwdoavlwpimmbegsyrmqkpk ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278899.1070623-10196-244472233667294/AnsiballZ_slurp.py
+Oct 14 18:21:39 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:21:39 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:21:39 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ntlnfkhansaqozivrsnnhzpjfhzommjz ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278899.3191588-10196-137901761509199/AnsiballZ_slurp.py
+Oct 14 18:21:39 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:21:39 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:21:39 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-buiavoejexsajmetzzsitqqtcfwuiizd ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697278899.5480468-10196-96458979888683/AnsiballZ_slurp.py
+Oct 14 18:21:39 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:21:39 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:22:39 server1 sshd[8402]: Received disconnect from 192.168.56.101 port 45066:11: disconnected by user
+Oct 14 18:22:39 server1 sshd[8402]: Disconnected from user sai 192.168.56.101 port 45066
+Oct 14 18:22:39 server1 sshd[8362]: pam_unix(sshd:session): session closed for user sai
+Oct 14 18:22:39 server1 systemd-logind[703]: Session 33 logged out. Waiting for processes to exit.
+Oct 14 18:22:39 server1 systemd-logind[703]: Removed session 33.
+Oct 14 18:29:05 server1 sshd[9058]: Accepted publickey for sai from 192.168.56.101 port 47922 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 18:29:05 server1 sshd[9058]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 18:29:05 server1 systemd-logind[703]: New session 34 of user sai.
+Oct 14 18:29:05 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lyhxgyjsfrzabjzaenilxezlqutdtepy ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279345.195014-10262-280362356019533/AnsiballZ_setup.py
+Oct 14 18:29:05 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:29:06 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:29:06 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jicbmtakfzjdblchvrfytsidrhlnvpab ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279346.0730205-10277-100895589580594/AnsiballZ_find.py
+Oct 14 18:29:06 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:29:06 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:29:06 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yhgekyuzyimwbmtupztvrphvamvvftdr ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279346.420145-10286-37096486491164/AnsiballZ_slurp.py
+Oct 14 18:29:06 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:29:06 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:29:06 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-buowhwbapwmhqquzjizrctbcbhialcny ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279346.743089-10286-222037489963547/AnsiballZ_slurp.py
+Oct 14 18:29:06 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:29:06 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:29:07 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lfxsblekthtpbbhbprlgbjslmrrvggvz ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279346.985709-10286-122771232361842/AnsiballZ_slurp.py
+Oct 14 18:29:07 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:29:07 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:29:07 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oqntfoycruttlnzgbidxmqvcogvlsheq ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279347.2107222-10286-211025858027397/AnsiballZ_slurp.py
+Oct 14 18:29:07 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:29:07 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:29:07 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ocgsmhgverqjhayexceepykkwickznxm ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279347.4406395-10286-84579465602636/AnsiballZ_slurp.py
+Oct 14 18:29:07 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:29:07 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:29:30 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pqnmjzdersaufuefefisvpvfxtsklwph ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279369.9036653-10328-29539538219277/AnsiballZ_setup.py
+Oct 14 18:29:30 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:29:30 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:29:30 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-drtrvmdxzzehhlrwldbyavgaestxolry ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279370.7600498-10339-214222287073126/AnsiballZ_find.py
+Oct 14 18:29:30 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:29:31 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:29:31 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tinebnggiqsqdeoyuwzllhvawooayrle ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279371.1106503-10348-210233463945099/AnsiballZ_slurp.py
+Oct 14 18:29:31 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:29:31 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:29:31 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-iirhvfgddqohnaiexlhbnsjibsngukka ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279371.435474-10348-166667427941724/AnsiballZ_slurp.py
+Oct 14 18:29:31 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:29:31 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:29:31 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kkszhstvxxkuxeytwohdcgjozpvymdxo ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279371.6615415-10348-121487701799277/AnsiballZ_slurp.py
+Oct 14 18:29:31 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:29:31 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:29:31 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-embclgixgtrtqaekkznjslwevfqrjmfm ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279371.8783896-10348-279136531412424/AnsiballZ_slurp.py
+Oct 14 18:29:31 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:29:32 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:29:32 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oqorwxbqhlzockxrgrwmebwlauuzajuu ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279372.1121325-10348-133120722485199/AnsiballZ_slurp.py
+Oct 14 18:29:32 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:29:32 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:29:33 server1 sshd[9527]: Accepted publickey for sai from 192.168.56.101 port 41194 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 18:29:33 server1 sshd[9527]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 18:29:33 server1 systemd-logind[703]: New session 35 of user sai.
+Oct 14 18:29:33 server1 sudo: pam_unix(sudo:auth): conversation failed
+Oct 14 18:29:33 server1 sudo: pam_unix(sudo:auth): auth could not identify password for [sai]
+Oct 14 18:29:33 server1 sshd[9527]: pam_unix(sshd:session): session closed for user sai
+Oct 14 18:29:33 server1 systemd-logind[703]: Session 35 logged out. Waiting for processes to exit.
+Oct 14 18:29:33 server1 systemd-logind[703]: Removed session 35.
+Oct 14 18:30:01 server1 CRON[9570]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 18:30:01 server1 CRON[9570]: pam_unix(cron:session): session closed for user root
+Oct 14 18:30:32 server1 sshd[9098]: Received disconnect from 192.168.56.101 port 47922:11: disconnected by user
+Oct 14 18:30:32 server1 sshd[9098]: Disconnected from user sai 192.168.56.101 port 47922
+Oct 14 18:30:32 server1 sshd[9058]: pam_unix(sshd:session): session closed for user sai
+Oct 14 18:30:32 server1 systemd-logind[703]: Session 34 logged out. Waiting for processes to exit.
+Oct 14 18:30:32 server1 systemd-logind[703]: Removed session 34.
+Oct 14 18:31:12 server1 sshd[9573]: Accepted publickey for sai from 192.168.56.101 port 46210 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 18:31:12 server1 sshd[9573]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 18:31:12 server1 systemd-logind[703]: New session 37 of user sai.
+Oct 14 18:31:13 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ahdhzlhixsxypcyoeuelaynwsgjavzwc ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279473.0778716-10427-144734552183441/AnsiballZ_setup.py
+Oct 14 18:31:13 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:31:14 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:31:14 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-aqzyhbwwtpnlsojyohmrlzvuwkcnbyhw ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279474.0991404-10442-179866349583748/AnsiballZ_find.py
+Oct 14 18:31:14 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:31:14 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:31:14 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gxnvjrkemdeozbngmxfrrixiemvlvhaw ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279474.4483387-10451-83346876848737/AnsiballZ_slurp.py
+Oct 14 18:31:14 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:31:14 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:31:14 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-iqcfdtggygreumbyqdprbygtfpmewchw ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279474.7687953-10451-206848952246962/AnsiballZ_slurp.py
+Oct 14 18:31:14 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:31:14 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:31:15 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kpptjlguicudpmmzzjnaecgidsccgzno ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279474.9910922-10451-242735370712374/AnsiballZ_slurp.py
+Oct 14 18:31:15 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:31:15 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:31:15 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bojpemarwtcnfmwmzgsgqztcchpwrnma ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279475.2166355-10451-264905732740351/AnsiballZ_slurp.py
+Oct 14 18:31:15 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:31:15 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:31:15 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lwvwvtrpqdidnktifsetmiyslswlbzop ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279475.4537125-10451-190350637676326/AnsiballZ_slurp.py
+Oct 14 18:31:15 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:31:15 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:31:16 server1 sshd[9828]: Accepted publickey for sai from 192.168.56.101 port 46224 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 18:31:16 server1 sshd[9828]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 18:31:16 server1 systemd-logind[703]: New session 38 of user sai.
+Oct 14 18:31:16 server1 sshd[9868]: Received disconnect from 192.168.56.101 port 46224:11: disconnected by user
+Oct 14 18:31:16 server1 sshd[9868]: Disconnected from user sai 192.168.56.101 port 46224
+Oct 14 18:31:16 server1 sshd[9828]: pam_unix(sshd:session): session closed for user sai
+Oct 14 18:31:16 server1 systemd-logind[703]: Session 38 logged out. Waiting for processes to exit.
+Oct 14 18:31:16 server1 systemd-logind[703]: Removed session 38.
+Oct 14 18:32:15 server1 sshd[9613]: Received disconnect from 192.168.56.101 port 46210:11: disconnected by user
+Oct 14 18:32:15 server1 sshd[9613]: Disconnected from user sai 192.168.56.101 port 46210
+Oct 14 18:32:15 server1 sshd[9573]: pam_unix(sshd:session): session closed for user sai
+Oct 14 18:32:15 server1 systemd-logind[703]: Session 37 logged out. Waiting for processes to exit.
+Oct 14 18:32:15 server1 systemd-logind[703]: Removed session 37.
+Oct 14 18:34:01 server1 sshd[9934]: Accepted publickey for sai from 192.168.56.101 port 52636 ssh2: RSA SHA256:746SQloK2zkgn2sJ/ZMG5jRGtjE7EYYhokiTAFB2pO8
+Oct 14 18:34:01 server1 sshd[9934]: pam_unix(sshd:session): session opened for user sai(uid=1000) by (uid=0)
+Oct 14 18:34:01 server1 systemd-logind[703]: New session 39 of user sai.
+Oct 14 18:34:01 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rxokawetqushskkqoaxbtgdesylhithu ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279641.2456923-10521-159125639751652/AnsiballZ_setup.py
+Oct 14 18:34:01 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:34:02 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:34:02 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fjsupruupjufnmqxtvfpmxyqqsnclaxz ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279642.1376574-10536-242738674656269/AnsiballZ_find.py
+Oct 14 18:34:02 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
+Oct 14 18:34:02 server1 sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 18:34:02 server1 sudo:      sai : TTY=pts/1 ; PWD=/home/sai ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ecfvrfmbcpbanmsufcrrusvjibavvkwb ; /usr/bin/python3 /home/sai/.ansible/tmp/ansible-tmp-1697279642.497911-10545-207340677802997/AnsiballZ_slurp.py
+Oct 14 18:34:02 server1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by sai(uid=1000)
